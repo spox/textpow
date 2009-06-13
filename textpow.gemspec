@@ -10,7 +10,8 @@ spec = Gem::Specification.new do |s|
     s.rdoc_options      = %w(--title TextPow --main README.txt --line-numbers)
     s.extra_rdoc_files  = %w(README.txt)
     s.require_paths     = %w(lib)
-    s.required_ruby_version = '>= 1.8.6'
+    s.required_ruby_version = '>= 1.9.0'
+    s.add_dependency 'plist'
     description         = []
     File.open("README.txt") do |file|
         file.each do |line|
