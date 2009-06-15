@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
     s.name              = 'textpow'
     s.author            = %q(spox)
     s.email             = %q(spox@modspox.com)
-    s.version           = '0.10.2'
+    s.version           = '0.10.3'
     s.summary           = %q(textpow)
     s.platform          = Gem::Platform::RUBY
     s.has_rdoc          = true
