@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
     s.rdoc_options      = %w(--title TextPow --main README.txt --line-numbers)
     s.extra_rdoc_files  = %w(README.txt)
     s.require_paths     = %w(lib)
+    s.executables       = %w(plist2yaml plist2syntax)
     s.required_ruby_version = '>= 1.9.0'
-    s.add_dependency 'plist'
+    s.add_dependency 'spox-plist'
     s.description = "Textpow is a library to parse and process Textmate bundles."
 end
